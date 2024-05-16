@@ -1,0 +1,106 @@
+* {
+    transition: all .4s ease;
+}
+
+body {
+    margin: 0;
+    padding: 0; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(36, 36, 36) ;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction:row;
+    background-color: rgb(92, 0, 38);
+    border-bottom: 1px solid rgb(255, 255, 150);
+    color: beige;
+    align-items: center;
+}
+
+.header__ul {
+    display: flex;
+    padding: 10px;
+    transform: scale(80%);
+}
+
+header li {
+    list-style: none;
+}
+
+ul li a {
+    padding: 5px;
+    margin-left: 40px;
+    text-decoration: none;
+    color: beige;
+    list-style: none;
+}
+
+header img {
+    width: 200px;
+    padding: 10px;
+}
+
+header img:hover {
+    cursor: pointer;
+    transform: scale(110%);
+}
+
+ul li a:hover {
+    color: rgb(255, 255, 150);
+    background-color: rgba(255, 116, 197, 0.192);
+    border-radius: 5px;
+}
+
+.nosotros {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0 auto 1cm auto;
+    background-color: rgba(92, 0, 38, 0.336);
+    width: 20cm;
+    border-radius: 10px;
+    color: beige;
+}
+
+.nosotros__desc {
+    margin-left: auto;
+    margin-right: auto;
+    width: 16cm;;
+    padding: 0 15px 15px 15px;
+}
+
+.nosotros ion-icon {
+    font-size: xx-large;
+}
+
+.nosotros h2 {
+    padding: 15px;
+    margin: 15px;
+    border-bottom: 1px solid white;
+    color: beige;
+}
+
+button {
+    background-color: rgb(92, 0, 38);
+    border: 0;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 15cm;
+    margin: 0 20px 20px 15cm;
+    color: beige;
+}
+
+button:hover {
+    background-color: beige;
+    color: rgb(92, 0, 38);
+    cursor: pointer;
+}
+
+a {
+    color: beige;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(92, 0, 38);
+}

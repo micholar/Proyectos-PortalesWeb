@@ -1,0 +1,142 @@
+* {
+    transition: all .4s ease;
+}
+
+body {
+    margin: 0;
+    padding: 0; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(36, 36, 36) ;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction:row;
+    background-color: rgb(92, 0, 38);
+    border-bottom: 1px solid rgb(255, 255, 150);
+    color: beige;
+    align-items: center;
+}
+
+.header__ul {
+    display: flex;
+    padding: 10px;
+    transform: scale(80%);
+}
+
+header li {
+    list-style: none;
+}
+
+ul li a {
+    padding: 5px;
+    margin-left: 40px;
+    text-decoration: none;
+    color: beige;
+    list-style: none;
+}
+
+header img {
+    width: 200px;
+    padding: 10px;
+}
+
+header img:hover {
+    cursor: pointer;
+    transform: scale(110%);
+}
+
+ul li a:hover {
+    color: rgb(255, 255, 150);
+    background-color: rgba(255, 116, 197, 0.192);
+    border-radius: 5px;
+}
+
+.chocodesc > img {
+    width: 200px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+.productos {
+    justify-content: space-between;
+    display: flex;
+    padding: .5cm;
+    margin: .5cm .8cm 2cm .8cm;
+    margin-left: .8cm;
+    margin-right: .8cm;
+    color: rgb(255, 255, 190);
+}
+
+.producto1 h3 {
+    text-align: center;
+}
+
+.producto2 h3 {
+    text-align: center;
+}
+
+.producto3 h3 {
+    text-align: center;
+}
+
+.producto4 h3 {
+    text-align: center;
+}
+
+.producto1 {
+    text-align:justify;
+    width: 240px;
+    padding: 20px;
+    background-color: rgba(56, 0, 23, 0.192);
+    border-radius: 8px;
+}
+
+.producto2 {
+    text-align:justify;
+    width: 240px;
+    padding: 20px;
+    background-color: rgba(56, 0, 23, 0.192);
+    border-radius: 8px;
+}
+
+.producto3 {
+    text-align:justify;
+    width: 240px;
+    padding: 20px;
+    background-color: rgba(56, 0, 23, 0.192);
+    border-radius: 8px;
+}
+
+.producto4 {
+    text-align:justify;
+    width: 240px;
+    padding: 20px;
+    background-color: rgba(56, 0, 23, 0.192);
+    border-radius: 8px;
+}
+
+.producto1:hover {
+    cursor: pointer;
+    border: 1px solid white;
+    transform: scale(105%);
+}
+
+.producto2:hover {
+    cursor: pointer;
+    border: 1px solid white;
+    transform: scale(105%);
+}
+
+.producto3:hover {
+    cursor: pointer;
+    border: 1px solid white;
+    transform: scale(105%);
+}
+
+.producto4:hover {
+    cursor: pointer;
+    border: 1px solid white;
+    transform: scale(105%);
+}
